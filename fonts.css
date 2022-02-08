@@ -1,0 +1,14 @@
+@font-face {
+    font-family: SEGREG;
+    src: url(fonts/segoe.ttf);
+}
+
+@font-face {
+    font-family: SEGBLD;
+    src: url(fonts/segoeb.ttf);
+}
+
+@font-face {
+    font-family: SEGLITE;
+    src: url(fonts/segoel.ttf);
+}

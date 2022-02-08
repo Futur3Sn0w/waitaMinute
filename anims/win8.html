@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fonts.css">
+</head>
+<body>
+    <div class="midText">Something about installing apps</div>
+    <div class="btmText">Don't off your PC</div>
+    <style>
+        body{
+            animation-name: slider;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            color: white;
+            font-family: SEGLITE;
+        }
+
+        .midText{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            width: max-content;
+            
+            transform: translate(-50%, -50%);
+
+            font-size: 50px;
+        }
+
+        .btmText{
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            font-size: 30px;
+        }
+
+        @keyframes slider {
+            0%{
+                background-color: #018000;
+            }
+
+            20%{
+                background-color: #197CDA;
+            }
+
+            40%{
+                background-color: #7D36B9;
+            }
+
+            60%{
+                background-color: #BA2A57;
+            }
+
+            80%{
+                background-color: #FA8A36;
+            }
+
+            100%{
+                background-color: #58A18B;
+            }
+        }
+    </style>
+</body>
+</html>
